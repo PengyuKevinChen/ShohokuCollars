@@ -1,5 +1,5 @@
 {
-  "name": "shohokucollarsapi",
+  "name": "shohokucollars",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,6 +37,7 @@
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.16.0",
+    "jest": "^25.4.0",
     "typescript": "3.6.4"
   },
   "scripts": {

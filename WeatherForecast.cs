@@ -1,6 +1,6 @@
 using System;
 
-namespace ShohokuCollarsAPI
+namespace ShohokuCollars
 {
     public class WeatherForecast
     {
