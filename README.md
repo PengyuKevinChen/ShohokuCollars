@@ -3,11 +3,16 @@
 ---
 ### Relational Database Structure:
 ##### Collar
-* *CollarName
+* *CollarID
+* LastName
+* FirstName
 * CollarSuburb
-* TopUpAmount
-* TopUpDate
 * CollarCredit
+##### TopUp
+* *TopUpID
+* CollarID
+* TopUpAmount
+* TopUpTime
 ##### Game
 * *CollarName
 * *BookingID
