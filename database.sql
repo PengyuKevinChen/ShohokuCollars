@@ -2,11 +2,11 @@ alter table Booking
     drop constraint FK_CourtBooking
 alter table TopUp
     drop constraint FK_CollarTopUp
-drop table Booking
-drop table TopUp
-drop table Game
-drop table Collar
-drop table Court
+drop table if exists Booking
+drop table if exists TopUp
+drop table if exists Game
+drop table if exists Collar
+drop table if exists Court
 
 
 create table Collar
